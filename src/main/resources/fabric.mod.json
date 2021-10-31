@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "lilli",
+  "version": "${version}",
+  "name": "Lilli",
+  "description": "",
+  "authors": [
+    "Amelie",
+    "Lynn"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/com.amelynn.lilli/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.amelynn.lilli.Lilli"
+    ]
+  },
+  "mixins": [
+    "lilli.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.3",
+    "fabric": "*",
+    "minecraft": "1.18-alpha.21.43.a"
+  }
+}
